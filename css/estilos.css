@@ -107,15 +107,10 @@ footer{
     align-items: center;
 }
 
-.formulario-contacto{
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    width: 100%;
-    padding: 20px;
-    align-items: center;
-}
 
+.container {
+    width: 30%;
+}
 
 /* declaro grid areas*/
 
@@ -174,17 +169,7 @@ footer{
     flex-direction: column;
     align-items: center;
 }
-
-.formulario-contacto{
-    width: 450px;
-    height:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
 }
-} 
-
 /* breakpoint */
 
 @media (min-width:768px){
@@ -228,10 +213,6 @@ margin-top: 5%;
 margin-bottom: 5%;
 }
 
-.formulario-contacto{
-    width: 600px;
-    height:auto;
-}
 .video{
     width: 600px;;
     display: flex;
