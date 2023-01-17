@@ -111,6 +111,35 @@ footer{
 .container {
     width: 30%;
 }
+.accordion{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.accordion-body{
+    font-family:'Montserrat', sans-serif;
+    color: maroon;
+    text-align: justify;
+    line-height: 50px;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3% ;
+}
+
+.accordion-button{
+    color: rgb(57, 133, 133);
+    font-weight: bold;
+}
+.accordion-header-primero{
+    margin-top: 0%;
+}
+
 
 /* declaro grid areas*/
 
