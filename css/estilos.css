@@ -171,7 +171,6 @@ footer{
 
 .testimonios-caja{
     width: 90%;
-    height: 350px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
     padding: 5%;
     margin: 5%;
@@ -295,14 +294,6 @@ footer{
     justify-content: center;
     margin-top: 40px;
 }
-.testimonios{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 2%;
-}
 }
 
 /* breakpoint */
@@ -363,8 +354,11 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    margin-right:3%;
 }   
+.testimonios-caja{
+    width: 90%;
+    height: 350px;
+}
+
 }
 
