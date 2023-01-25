@@ -6,9 +6,9 @@
 }
 
 a{
-padding: 80px;
-margin: 30px;
-}
+    padding: 5%;
+    margin: 5%;
+    }
 
 /* mobile first 0-500*/
 
@@ -87,12 +87,9 @@ footer{
     align-items: center;
 }
 .bandera{
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
     width: 80%;
-    padding: 20px;
     align-items: center;
+    padding: 5%;
 }
 
 .container {
@@ -304,7 +301,6 @@ p{
 .bandera{
     border: none;
     width: 20%;
-    height:auto;
 }
 
 .grilla-banderas {
