@@ -90,18 +90,31 @@ footer {
   align-items: center;
 }
 
+.bandera {
+  width: 40%;
+}
+
+.grilla-banderas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  background-color: rgb(57, 133, 133);
+}
+
+.btn-secondary {
+  margin-left: 40%;
+  margin-top: 30%;
+}
+
 .video {
   display: block;
   margin: 0 auto;
   max-width: 100%;
   width: 80%;
   align-items: center;
-}
-
-.bandera {
-  width: 80%;
-  align-items: center;
-  padding: 5%;
 }
 
 .container {
@@ -198,7 +211,7 @@ footer {
   width: 100%;
   height: 100%;
   -o-object-fit: center;
-     object-fit: center;
+  object-fit: center;
 }
 
 .comentarios-clientes p {
@@ -259,7 +272,7 @@ footer {
     margin-left: 20%;
     margin-right: 10%;
     gap: 10%;
-    width: 50%;
+    width: 60%;
   }
   .grilla-banderas {
     display: flex;
@@ -279,14 +292,7 @@ footer {
     color: maroon;
   }
   .bandera {
-    width: 50%;
-    height: auto;
-  }
-  .grilla-banderas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 5%;
+    width: 70%;
   }
   .video {
     width: 600px;
@@ -298,18 +304,18 @@ footer {
 }
 /* breakpoint */
 @media (min-width: 1024px) {
-  .bandera {
-    border: none;
-    width: 20%;
-  }
   .grilla-banderas {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-right: 20%;
     margin-left: 15%;
-    margin-top: 5%;
     margin-bottom: 5%;
+  }
+  .bandera {
+    border: none;
+    padding: 5%;
+    margin-top: 10%;
   }
   .video {
     width: 600px;
