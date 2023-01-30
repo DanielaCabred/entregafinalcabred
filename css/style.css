@@ -23,16 +23,24 @@ body {
   min-height: 100vh;
 }
 
-h1, h2 {
-  color: rgb(57, 133, 133);
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
+p {
+  font-size: 15px;
+  color: black;
   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  text-align: start;
   line-height: 40px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 1%;
 }
 
 h1 {
   font-size: 25px;
+  color: rgb(57, 133, 133);
   letter-spacing: 5px;
   padding: 15px;
   margin-top: 5%;
@@ -40,24 +48,18 @@ h1 {
 
 h2 {
   font-size: 20px;
+  color: rgb(57, 133, 133);
   text-transform: uppercase;
   line-height: 40px;
   padding: 15px;
   margin-top: 3%;
 }
 
-p {
+h1, h2 {
   font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-size: 15px;
-  text-align: start;
+  text-align: center;
+  font-weight: bold;
   line-height: 40px;
-  letter-spacing: 3px;
-  word-spacing: 5px;
-  color: maroon;
-  padding: 20px;
-  margin-right: 3%;
-  margin-left: 3%;
 }
 
 /* declaro grid areas*/
@@ -264,10 +266,10 @@ footer .icono:hover {
   margin-top: 50px;
 }
 
-/* breakpoint */
 @media (min-width: 500px) {
   p {
     text-align: center;
+    color: maroon;
   }
   .bandera {
     border: 5px solid rgb(57, 133, 133);
@@ -288,16 +290,13 @@ footer .icono:hover {
   margin-top: 10%;
 }
 
-/* breakpoint */
 @media (min-width: 768px) {
   p {
     font-weight: bold;
-    font-size: 15px;
     line-height: 60px;
     letter-spacing: 5px;
     word-spacing: 7px;
     text-transform: uppercase;
-    color: maroon;
   }
   .bandera {
     width: 70%;
@@ -315,7 +314,6 @@ footer .icono:hover {
     margin-top: 40px;
   }
 }
-/* breakpoint */
 @media (min-width: 1024px) {
   .grilla-banderas {
     display: flex;

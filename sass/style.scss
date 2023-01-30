@@ -9,11 +9,11 @@
 
 
 
-
-/* breakpoint */
+//** breakpoint **//
 @media (min-width: 500px) {
     p {
         text-align: center;
+        color: maroon;
     }
 
     .bandera {
@@ -35,17 +35,15 @@
     margin-left: 40%;
     margin-top: 10%;
 }
-/* breakpoint */
+//** breakpoint **//
 
 @media (min-width: 768px) {
     p {
         font-weight: bold;
-        font-size: 15px;
         line-height: 60px;
         letter-spacing: 5px;
         word-spacing: 7px;
         text-transform: uppercase;
-        color: maroon;
     }
 
     .bandera {
@@ -65,7 +63,7 @@
     }
 }
 
-/* breakpoint */
+//** breakpoint **//
 @media (min-width: 1024px) {
 
     .grilla-banderas {
