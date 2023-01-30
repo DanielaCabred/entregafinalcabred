@@ -13,6 +13,12 @@ a {
   padding: 5%;
   margin: 5%;
 }
+@media (min-width: 1024px) {
+  a {
+    padding: 100px;
+    margin: 60px;
+  }
+}
 
 body {
   background-color: rgb(245, 234, 222);
@@ -36,6 +42,21 @@ p {
   margin-right: 5%;
   margin-left: 5%;
   margin-top: 1%;
+}
+@media (min-width: 500px) {
+  p {
+    text-align: center;
+    color: maroon;
+  }
+}
+@media (min-width: 768px) {
+  p {
+    font-weight: bold;
+    line-height: 60px;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    text-transform: uppercase;
+  }
 }
 
 h1 {
@@ -101,6 +122,12 @@ footer {
   width: 80%;
   align-items: center;
 }
+@media (min-width: 1024px) {
+  .img_mapa {
+    border: 3px solid rgb(57, 133, 133);
+    width: 60%;
+  }
+}
 
 .video {
   display: block;
@@ -108,6 +135,24 @@ footer {
   max-width: 100%;
   width: 80%;
   align-items: center;
+}
+@media (min-width: 768px) {
+  .video {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .video {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+  }
 }
 
 .accordion {
@@ -142,6 +187,14 @@ footer {
   align-items: center;
   width: 100%;
 }
+@media (min-width: 1024px) {
+  .testimonios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
 
 .testimonios-header {
   margin: 5% 0%;
@@ -173,6 +226,12 @@ footer {
   padding: 5%;
   margin: 5%;
   cursor: pointer;
+}
+@media (min-width: 1024px) {
+  .testimonios-caja {
+    width: 90%;
+    height: 350px;
+  }
 }
 
 .caja-header {
@@ -213,22 +272,6 @@ footer {
   padding-top: 0%;
 }
 
-.grilla-banderas {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.bandera {
-  width: 40%;
-}
-
-.btn-secondary {
-  background-color: rgb(57, 133, 133);
-  margin-left: 37%;
-  margin-top: 5%;
-}
-
 .container {
   width: 30%;
 }
@@ -266,11 +309,10 @@ footer .icono:hover {
   margin-top: 50px;
 }
 
+.bandera {
+  width: 40%;
+}
 @media (min-width: 500px) {
-  p {
-    text-align: center;
-    color: maroon;
-  }
   .bandera {
     border: 5px solid rgb(57, 133, 133);
     margin-left: 20%;
@@ -278,41 +320,28 @@ footer .icono:hover {
     gap: 10%;
     width: 60%;
   }
-  .grilla-banderas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
-.btn-secondary {
-  background-color: rgb(57, 133, 133);
-  margin-left: 40%;
-  margin-top: 10%;
-}
-
 @media (min-width: 768px) {
-  p {
-    font-weight: bold;
-    line-height: 60px;
-    letter-spacing: 5px;
-    word-spacing: 7px;
-    text-transform: uppercase;
-  }
   .bandera {
     width: 70%;
   }
-  .btn-secondary {
-    background-color: rgb(57, 133, 133);
-    margin-left: 47%;
+}
+@media (min-width: 1024px) {
+  .bandera {
+    border: none;
+    padding: 5%;
     margin-top: 10%;
   }
-  .video {
-    width: 600px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 40px;
+  .bandera:hover {
+    transform: scale(2);
+    transition-duration: 3s;
   }
+}
+
+.grilla-banderas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media (min-width: 1024px) {
   .grilla-banderas {
@@ -323,43 +352,31 @@ footer .icono:hover {
     margin-left: 15%;
     margin-bottom: 5%;
   }
+}
+
+.btn-secondary {
+  background-color: rgb(57, 133, 133);
+  margin-left: 37%;
+  margin-top: 5%;
+}
+@media (min-width: 500px) {
+  .btn-secondary {
+    background-color: rgb(57, 133, 133);
+    margin-left: 45%;
+    margin-top: 10%;
+  }
+}
+@media (min-width: 768px) {
+  .btn-secondary {
+    background-color: rgb(57, 133, 133);
+    margin-left: 47%;
+    margin-top: 10%;
+  }
+}
+@media (min-width: 1024px) {
   .btn-secondary {
     background-color: rgb(57, 133, 133);
     margin-left: 40%;
     margin-top: 20%;
-  }
-  .bandera {
-    border: none;
-    padding: 5%;
-    margin-top: 10%;
-  }
-  .video {
-    width: 600px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 40px;
-  }
-  .img_mapa {
-    border: 3px solid rgb(57, 133, 133);
-    width: 60%;
-  }
-  .bandera:hover {
-    transform: scale(2);
-    transition-duration: 3s;
-  }
-  .testimonios {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .testimonios-caja {
-    width: 90%;
-    height: 350px;
-  }
-  a {
-    padding: 100px;
-    margin: 60px;
   }
 }/*# sourceMappingURL=style.css.map */

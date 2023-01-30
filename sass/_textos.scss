@@ -15,7 +15,20 @@ p{
     margin-right: 5%;
     margin-left: 5%;
     margin-top: 1% ;
+
+    @media (min-width: 500px) {
+            text-align: center;
+            color: maroon;
+        }
+    @media (min-width: 768px) {
+            font-weight: bold;
+            line-height: 60px;
+            letter-spacing: 5px;
+            word-spacing: 7px;
+            text-transform: uppercase;
+        }
 }
+
 
 h1{
     @include formato (25px,rgb(57, 133, 133));

@@ -36,11 +36,30 @@ footer {
 .img_mapa {
     width: 80%;
     align-items: center;
+    @media (min-width: 1024px){ 
+        border: 3px solid rgb(57, 133, 133);
+        width: 60%;
 }
+}
+
 .video {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     width: 80%;
     align-items: center;
+    @media (min-width: 768px) {
+            width: 600px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 40px;
+    }
+    @media (min-width: 1024px) {
+        width: 600px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 40px;
+    }
 }
