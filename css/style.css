@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
 * {
   margin: 0;
@@ -108,7 +107,6 @@ footer {
   grid-area: footer;
 }
 
-/* maquetación mobile first*/
 .grilla {
   display: grid;
   width: 100%;
@@ -287,26 +285,27 @@ footer {
   margin-top: 5%;
   padding: 0%;
 }
-footer .icono {
-  padding: 2%;
-  padding-bottom: 0%;
-  padding-top: 0%;
-}
-footer .icono:hover {
-  transform: scale(1.5);
-  transition-property: all;
-  transition-duration: 2s;
-}
-
-.parrafof {
+footer .parrafof {
   color: whitesmoke;
   padding: 20px;
   line-height: 40px;
   margin-bottom: 2%;
 }
-
-.redes {
+footer .redes {
   margin-top: 50px;
+}
+
+.icono {
+  padding: 2%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
+@media (min-width: 1024px) {
+  .icono:hover {
+    transform: scale(1.5);
+    transition-property: all;
+    transition-duration: 2s;
+  }
 }
 
 .bandera {
