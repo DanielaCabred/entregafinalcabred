@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="ciudadania, gestion, novedades, españa, italia, francia, ley de nietos">
     <meta name="description" content="Gestion de ciudadanias europeas. Novedades e informaciona actualizada">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Inicio</title>
@@ -16,7 +17,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light colorverdenav">
                 <div class="container-fluid">
-                    <a class="navbar-brand text-white" href="#">GRUPO <br> PROFESIONAL</a>
+                    <a class="navbar-brand text-white" href="#">GESTIÓN <br> VOLARE</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -47,13 +48,15 @@
         <main class="mapamundi">
             <h1>GESTIONA TU CIUDADANIA</h1>
             <p class="parrafo-titulo">Te acompañamos en el proceso desde el comienzo para que logres tus sueños</p>
-            <img class="img_mapa" src="./img/mapamundi.jpg" alt="mapaundi color marron claro">
+            <img data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500" class="img_mapa" src="./img/mapamundi.jpg" alt="mapamundi color marron claro">
         </main>
             
         <section class="presentacion">
             <h2>QUIÉNES SOMOS</h2>
-            <p> Somos un equipo de genealogistas y gestores especializados en los procesos de obtención de nacionalidades europeas.</p> <br> 
-            <p> El trabajo coordinado entre las diferentes áreas de nuestro estudio permite un asesoramiento acorde a las normas consulares vigentes en cada etapa del trámite.</p><br>
+            <p> Somos un equipo de genealogistas y gestores especializados en los procesos de obtención de nacionalidades europeas.</p> 
+            <p> El trabajo coordinado entre las diferentes áreas de nuestro estudio permite un asesoramiento acorde a las normas consulares vigentes en cada etapa del trámite.</p>
             <p> Para consultas personalizadas, gestión de documentación, traducciones y asesoramiento, puede hacerlo a través de la sección CONTACTO</p>
         </section>
         
@@ -67,13 +70,16 @@
             <div class="redes">
                 <img class="icono" src="./img/instagram.svg" alt="icono de instagram televisor de color ">
                 <img class="icono" src="./img/facebook.svg" alt="icono de facebook letra f color celeste">
-                <img  class="icono" src="./img/twitter.svg" alt="icono pajaro celeste twitter">
-                <img class="icono" src="./img/whatsapp.svg" alt="telefono verde logo whatsapp">
+                <img  class="icono" src="./img/twitter.svg" alt="icono pájaro celeste twitter">
+                <img class="icono" src="./img/whatsapp.svg" alt="teléfono verde logo whatsapp">
                 <img class="icono" src="./img/gmail.svg" alt="logo gmail sobre blanco y rojo"> <br>
-                <p class="parrafof"> Argentina, Buenos Aires, Mar del Plata, Direccion, Telefono 
-                </p>
+                <p class="parrafof"> Argentina, Buenos Aires, Mar del Plata.</p>
             </div>        
         </footer> 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>

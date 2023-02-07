@@ -1,6 +1,11 @@
 .container{
-    width: 30%;
-
+    width: 80%;
+    @media (min-width: 768px){
+        width: 60%;
+    }
+    @media (min-width: 768px){
+        width: 30%;
+    }
 .btn {
     background-color: rgb(57, 133, 133);
 }

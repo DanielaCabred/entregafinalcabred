@@ -1,25 +1,37 @@
 .accordion {
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 8%;
+    margin-bottom: 8%;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 80%;
+    @media (min-width: 768px){
+    width: 60%;
+    }   
 
 .accordion-body {
+    @include formato (12px,maroon);
     font-family: "Montserrat", sans-serif;
-    color: maroon;
-    text-align: justify;
+    line-height: 30px;
+    font-weight: bold;
+    margin:2%;
+    @media (min-width: 1024px){
+    text-align: center;
     line-height: 50px;
     letter-spacing: 5px;
     word-spacing: 3px;
     font-weight: bold;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 3%;
+    margin-bottom:3%;
+    font-size: 15px;
 }
 }
-
 .accordion-button {
     color: rgb(57, 133, 133);
     font-weight: bold;
+    font-size:12px;
+    @media (min-width: 1024px){
+    font-size: 15px;
+}
+}
 }
